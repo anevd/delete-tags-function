@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Delete Tags Function</title>
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper-form">
+				<form class="form form-input">
+					<label class="label" for="string">Введите строку с тегами</label>
+					<textarea class="input" id="string" cols="30" rows="10"></textarea>
+				</form>
+				<button type="submit" class="button">Убрать теги</button>
+			</div>
+			<div class="wrapper-form">
+				<form class="form">
+					<label class="label" for="result">Результат</label>
+					<textarea class="input result-area" id="result" cols="30" rows="10" readonly></textarea>
+				</form>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
